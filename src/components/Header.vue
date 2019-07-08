@@ -1,0 +1,37 @@
+<template>
+    <nav class="navbar navbar-default">
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <router-link to="/" class="navbar-brand">
+                    Stock Trader
+                </router-link>
+            </div>
+            <div class="collapse navbar-collapse">
+                 <ul class="nav navbar-nav">
+                    <router-link to="/Portfolio" active-class="active" tag="li"><a href="">Portfolio</a></router-link>
+                    <router-link to="/Stocks" active-class="active" tag="li"><a href="">Stocks</a></router-link>
+                 
+                 </ul>
+                 <ul class="nav navbar-nav navbar-right">
+                    <li><a href="#">End Day</a></li>
+                    <li class="dropdown">
+                        <a 
+                            href="#"
+                            class="dropdown-toggle"
+                            role="button"
+                            aria-haspopup="true"
+                            aria-expanded="false">
+                            Save and load
+                            <span class="caret"></span>
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a href="#">Save Data</a></li>
+                            <li><a href="#">Load Data</a></li>
+                        </ul>
+                    </li>
+                 </ul>
+            </div>
+        </div>
+    </nav>
+
+</template>
