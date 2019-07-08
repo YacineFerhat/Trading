@@ -10,7 +10,7 @@
             Click on 'End Day ' to begin a new Day!
         </h6>
         <p>
-            Your Funds : {{funds}}
+            Your Funds : {{funds | currency}}
         </p>
     </div>
 </template>
